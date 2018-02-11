@@ -1,7 +1,7 @@
 FROM debian:jessie
 LABEL maintainer="magiclobster@mailbox.org"
 
-ENV GIT_REPO https://github.com/billaue2/cryptonote-aeon-pool.git
+ENV GIT_REPO https://github.com/sblockchiain/cryptonote-ducx-pool.git
 ENV NODE_URL https://deb.nodesource.com/setup_8.x
 
 RUN apt-get update && apt-get install -y \

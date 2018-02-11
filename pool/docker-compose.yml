@@ -4,11 +4,11 @@ services:
     build: .
     container_name: aeon-pool
     environment:
-      - POOL_WALLET_ADDRESS=Wms4HR1NicGRDvqbM2hn3cAZusERghU93ejuftvGLz7q6Pi9EsqzEZLXjmkCqDBs7r76ukDDKtVAK6ekyuNxwxSn2vG6g1vkt
-      - POOL_API_PASSWORD=password
-      - POOL_HOST=aeon.magiclobster.de
-      - POOL_API=https:\/\/helios.no-typewriter.de:8119
-      - MAIL_ADDRESS=magiclobster@mailbox.org
+      - POOL_WALLET_ADDRESS=14JeLuxP47oMSyF5pV3gHshoRRVY7mXpr3YbpvyEvhRPiTtjjjngYx6XmmkuzQJL9qadP8gedtru4BNBZESu8oESHGVgCMk
+      - POOL_API_PASSWORD=A1password
+      - POOL_HOST=mail.ducx.io
+      - POOL_API=https:\/\/mail.ducx.io:8119
+      - MAIL_ADDRESS=lecrab@gmail.com
 
 networks:
   default:
