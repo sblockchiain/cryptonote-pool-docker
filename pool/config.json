@@ -1,6 +1,6 @@
 {
-    "coin": "aeon2",
-    "symbol": "AEON",
+    "coin": "ducx",
+    "symbol": "DUCX",
     "coinUnits": 1000000000000,
     "coinDifficultyTarget": 240,
 
@@ -19,7 +19,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": 4,
-        "poolAddress": "°POOL_WALLET_ADDRESS°",
+        "poolAddress": "14JeLuxP47oMSyF5pV3gHshoRRVY7mXpr3YbpvyEvhRPiTtjjjngYx6XmmkuzQJL9qadP8gedtru4BNBZESu8oESHGVgCMk",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
@@ -109,13 +109,13 @@
     },
 
     "daemon": {
-        "host": "aeon-wallet",
-        "port": 11181
+        "host": "ducx-wallet",
+        "port": 59996
     },
 
     "wallet": {
-        "host": "aeon-wallet",
-        "port": 11188
+        "host": "ducx-wallet",
+        "port": 59995
     },
 
     "redis": {
